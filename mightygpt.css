@@ -1,0 +1,93 @@
+@import url('./glow.css');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+     background-color: black;
+     color:white;
+}
+nav{
+    height:100px;
+    width:100%;
+    color:white;
+    padding:0px 50px;
+}
+.iicon{
+    height:100%;
+}
+.image1{
+    height:60%;
+}
+.iicon span{
+    font-size: 40px;
+}
+.inflex{
+    display:flex;
+    align-items: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.container{
+    margin-top:80px;
+}
+.just-center{
+    justify-content:center;
+}
+.just-evenly{
+    justify-content: space-evenly;
+}
+.just-bet{
+    justify-content:space-between;
+}
+.nav_items{
+    height:100%;
+    width:700px;
+
+}
+.nav_items h3{
+    font-weight: 800px;
+}
+.heading{
+    font-size:80px;
+    animation: glow 2s linear infinite;
+}
+@keyframes glow{
+    0%{
+        background:-webkit-linear-gradient(rgb(17, 128, 155),green);
+        -webkit-background-clip: text;
+         -webkit-text-fill-color:transparent;
+    }
+    50%{
+        background:-webkit-linear-gradient(rgb(139, 14, 72),rgb(19, 56, 105));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+
+    }
+    100%{
+        background:-webkit-linear-gradient(rgb(201, 114, 38),green);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+    }
+}
+.heading:hover{
+    transform:scale(1.2);
+}
+.p1{
+    margin-top: 20px;
+}
+.gpt{
+    color:green;
+}
+hr{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.image21{
+    height: 50px;
+}
+
+
